@@ -919,33 +919,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^9.0.0":
-  version: 9.4.3
-  resolution: "@nestjs/common@npm:9.4.3"
+"@nestjs/common@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "@nestjs/common@npm:10.0.0"
   dependencies:
     iterare: 1.2.1
     tslib: 2.5.3
     uid: 2.0.2
   peerDependencies:
-    cache-manager: <=5
     class-transformer: "*"
     class-validator: "*"
     reflect-metadata: ^0.1.12
     rxjs: ^7.1.0
   peerDependenciesMeta:
-    cache-manager:
-      optional: true
     class-transformer:
       optional: true
     class-validator:
       optional: true
-  checksum: 45ccb5acac2521a05576f37b37ab94c63a83aefb1839ed670635090bb934c1bd532852cb7be9863ee3b9d1ad80aa84e0602be023c626623f9233257dcb754914
+  checksum: 8acb03eabf373ed964742b6b981a0e315ccf393a2ed62beb535c9d2102019b9160b71196a3538222d520bf1f6f2e8c8db919f4edea744434128c2ac54cabaaee
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:^9.0.0":
-  version: 9.4.3
-  resolution: "@nestjs/core@npm:9.4.3"
+"@nestjs/core@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "@nestjs/core@npm:10.0.0"
   dependencies:
     "@nuxtjs/opencollective": 0.3.2
     fast-safe-stringify: 2.1.1
@@ -954,10 +951,10 @@ __metadata:
     tslib: 2.5.3
     uid: 2.0.2
   peerDependencies:
-    "@nestjs/common": ^9.0.0
-    "@nestjs/microservices": ^9.0.0
-    "@nestjs/platform-express": ^9.0.0
-    "@nestjs/websockets": ^9.0.0
+    "@nestjs/common": ^10.0.0
+    "@nestjs/microservices": ^10.0.0
+    "@nestjs/platform-express": ^10.0.0
+    "@nestjs/websockets": ^10.0.0
     reflect-metadata: ^0.1.12
     rxjs: ^7.1.0
   peerDependenciesMeta:
@@ -967,7 +964,24 @@ __metadata:
       optional: true
     "@nestjs/websockets":
       optional: true
-  checksum: 5c556c43fc4bce5001c9fa1190630031e60db5678d47c1266f6aca957d862fc8aa7168414cf7938852976ee52086395bd05d4a4daaa0915d12e47c4f644dc263
+  checksum: c8a942f643880147a9c4db2fe7d1f0b734c51f6738f53fcc738e71e3b0f3e9c4e9f0c12b32476b6bc37add47f052b8d9ca290fb900d3dabf16a20f2d9616026d
+  languageName: node
+  linkType: hard
+
+"@nestjs/mapped-types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@nestjs/mapped-types@npm:2.0.0"
+  peerDependencies:
+    "@nestjs/common": ^8.0.0 || ^9.0.0 || ^10.0.0
+    class-transformer: ^0.4.0 || ^0.5.0
+    class-validator: ^0.13.0 || ^0.14.0
+    reflect-metadata: ^0.1.12
+  peerDependenciesMeta:
+    class-transformer:
+      optional: true
+    class-validator:
+      optional: true
+  checksum: a43380f2a00f6b7aed0c171ce3e9334466782cdeb0da9b5a3d858d74cb0b96ab26afa55f3d4152907df8f512b30a3ff7f432df53b0ff952672fed7d70d503186
   languageName: node
   linkType: hard
 
@@ -5178,8 +5192,9 @@ __metadata:
   resolution: "nestjs-template@workspace:."
   dependencies:
     "@nestjs/cli": ^9.0.0
-    "@nestjs/common": ^9.0.0
-    "@nestjs/core": ^9.0.0
+    "@nestjs/common": ^10.0.0
+    "@nestjs/core": ^10.0.0
+    "@nestjs/mapped-types": ^2.0.0
     "@nestjs/platform-express": ^9.0.0
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.0.0
